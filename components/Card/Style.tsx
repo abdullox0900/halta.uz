@@ -52,7 +52,10 @@ export const CardItemImg = styled.img`
 
 
 
-    
+
+
+
+
     object-fit: cover;
 
 
