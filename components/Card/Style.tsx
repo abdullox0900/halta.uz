@@ -47,6 +47,11 @@ export const CardItemImg = styled.img`
     height: 250px;
 
 
+
+
+
+
+
     
     object-fit: cover;
 
