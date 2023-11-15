@@ -68,6 +68,9 @@ export const CardItemContent = styled.div`
 
     @media only screen and (max-width: 510px) {
         padding: 15px;
+
+
+        
     }
 `
 
