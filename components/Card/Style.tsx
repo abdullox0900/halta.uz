@@ -56,19 +56,26 @@ export const CardItemImg = styled.img`
 
 export const CardItemName = styled.div`
     margin-bottom: 30px;
+    
 
     @media only screen and (max-width: 510px) {
         font-size: 14px;
         margin-bottom: 20px;
+
+
+
     }
 `
 
 export const CardItemContent = styled.div`
+
+
+
     padding: 20px;
 
 
 
-    
+
     @media only screen and (max-width: 510px) {
         padding: 15px;
 
