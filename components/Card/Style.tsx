@@ -17,7 +17,7 @@ export const CardItem = styled.li`
     align-items: center;
     justify-content: space-between;
     width: 250px;
-    height: 400px;
+    height: 370px;
     overflow: hidden;
     background-color: white;
     /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
@@ -25,7 +25,7 @@ export const CardItem = styled.li`
 
     @media only screen and (max-width: 555px) {
         width: 230px;
-        height: 400px;
+        height: 370px;
     }
 
     @media only screen and (max-width: 510px) {
@@ -44,7 +44,7 @@ export const CardItem = styled.li`
 
 export const CardItemImg = styled.img`
     width: 250px;
-    height: 250px;
+    height: 200px;
     object-fit: cover;
 
 
@@ -56,31 +56,21 @@ export const CardItemImg = styled.img`
 
 export const CardItemName = styled.div`
     margin-bottom: 30px;
+    color: #000;
     
 
     @media only screen and (max-width: 510px) {
         font-size: 14px;
         margin-bottom: 20px;
-
-
-
     }
 `
 
 export const CardItemContent = styled.div`
-
-
-
-    padding: 20px;
-
-
+    padding: 0 20px 30px 20px;
 
 
     @media only screen and (max-width: 510px) {
         padding: 15px;
-
-
-
     }
 `
 
@@ -92,6 +82,7 @@ export const CardItemBottom = styled.div`
 
 export const CardItemBottomPrice = styled.div`
     font-size: 18px;
+    color: #000;
 
     @media only screen and (max-width: 510px) {
         font-size: 16px;
