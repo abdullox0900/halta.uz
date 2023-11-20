@@ -19,6 +19,10 @@ export const CardItem = styled.li`
     width: 250px;
     height: 370px;
 
+
+
+
+
     
     overflow: hidden;
     background-color: white;
