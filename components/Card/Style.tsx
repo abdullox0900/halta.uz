@@ -18,6 +18,8 @@ export const CardItem = styled.li`
     justify-content: space-between;
     width: 250px;
     height: 370px;
+
+    
     overflow: hidden;
     background-color: white;
     /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
